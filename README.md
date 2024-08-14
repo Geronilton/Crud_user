@@ -5,7 +5,7 @@ Este repositório contém a implementação do backend para um sistema de login 
 - CRUD de Usuários: Criação, leitura, atualização e deleção de usuários.
 - Autenticação: Login de usuários com verificação de credenciais.
   
-##Estrutura do Projeto
+## Estrutura do Projeto
 - /config: Contém as configurações do banco de dados, incluindo o arquivo config.json que define as credenciais e detalhes da conexão.
 - /migrations: Scripts de migração do banco de dados para criar as tabelas necessárias.
 - /models: Modelos do Sequelize que representam as tabelas no banco de dados.
@@ -24,8 +24,8 @@ O projeto utiliza Sequelize como ORM para interagir com o banco de dados. As con
 Para criar as tabelas necessárias no banco de dados, execute as migrações com o Sequelize CLI:
 
 - npx sequelize-cli db:migrate
-- 
-##Como Executar
+  
+## Como Executar
 
 Clone o repositório:
 git clone https://github.com/Geronilton/Crud_user.git
@@ -35,14 +35,13 @@ cd Crud_user
 npm install
 
 ## Configure o Banco de Dados:
-
 Edite o arquivo config/config.json para incluir as credenciais do seu banco de dados.
 
 ## Execute as migrações:
-
 npx sequelize-cli db:migrate
+
 ## Inicie o servidor:
-- npm start
+npm start
 
 O servidor estará rodando em http://localhost:3000.
 
